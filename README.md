@@ -25,6 +25,7 @@ const MEDIA_ID = 123456789; // 修改为实际收藏夹ID
 ---
 
 2. `bilibili_bvid_extractor.py`
+
 • 用途：提取清洗BV号  
 
 • 运行命令：
@@ -40,6 +41,7 @@ const MEDIA_ID = 123456789; // 修改为实际收藏夹ID
 ---
 
 3. `batch_add_fav.py`（核心脚本）
+
 • 配置参数：
 
   ```python
