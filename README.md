@@ -92,12 +92,12 @@ const MEDIA_ID = 123456789; // 修改为实际收藏夹ID
 
 第三阶段：批量操作
 1. 主脚本配置检查
-2. 
+
    • 验证cookie是否包含三个核心字段：  
 
      `DedeUserID` / `SESSDATA` / `bili_jct`
 
-3. 执行收藏程序
+2. 执行收藏程序
    ```bash
    python batch_add_fav.py
    ```
@@ -139,6 +139,7 @@ const MEDIA_ID = 123456789; // 修改为实际收藏夹ID
 注意事项
 
 安全警告  
+
 ▶ Cookie信息等同于账号密码，操作完成后请立即：  
 1. 清空脚本中的`COOKIE`字段  
 2. 删除本地临时文件`input.txt/output.txt`  
