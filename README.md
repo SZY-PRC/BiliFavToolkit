@@ -7,6 +7,7 @@ B站收藏夹批量操作工具说明
 文件说明
 
 1. `fetch_bilibili_favorites.js`
+
 • 用途：抓取B站收藏夹原始数据  
 
 • 使用方式：
